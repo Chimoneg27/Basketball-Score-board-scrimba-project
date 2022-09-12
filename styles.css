@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/court3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    max-width: 575px;
+    max-height: 385px;
+    margin: 6rem auto;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    background-color: #1B244A;
+    padding: 2em;
+}
+
+/* #new-game{
+    margin: 2rem auto;
+    max-width: 70%;
+    display: block;
+} */
+
+.container h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-size: 2.5rem;
+}
+
+.container h1{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    height: 120px;
+    width: 155px;
+    background-color: #000;
+    color: #F94F6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 5.625rem;
+}
+
+.plusOne{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 1.125rem;
+    color: #9AABD8;
+    height: 45px;
+    width: 45px;
+    border: 2px solid #9AABD8;
+    background-color: inherit;
+    border-radius: 5px;
+}
+
+.home{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.guest{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.buttons{
+    display: flex;
+    gap: .5rem;
+}
