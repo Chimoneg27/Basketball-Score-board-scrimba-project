@@ -37,7 +37,7 @@ body{
 }
 
 .container h1{
-    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-family: "CursedTimer";
     height: 120px;
     width: 155px;
     background-color: #000;
@@ -51,7 +51,7 @@ body{
 }
 
 .plusOne{
-    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-family: "CursedTimer";
     font-size: 1.125rem;
     color: #9AABD8;
     height: 45px;
@@ -78,4 +78,11 @@ body{
 .buttons{
     display: flex;
     gap: .5rem;
+}
+
+@font-face{
+    font-family: "CursedTimer";
+    src: url(fonts/cursed-timer-ulil/webfonts/CursedTimerULiL.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
 }

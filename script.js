@@ -35,10 +35,10 @@ function addThreeGuest(){
 }
 
 
-function reset(){
-    if (scoreGuest > 0 && scoreHome > 0){
-        return guestScore.textContent = 0, homeScore.textContent = 0;
-    }
-    scoreHome = 0;
-    scoreGuest = 0;
-}
+// function reset(){
+//     if (scoreGuest > 0 && scoreHome > 0){
+//         return guestScore.textContent = 0, homeScore.textContent = 0;
+//     }
+//     scoreHome = 0;
+//     scoreGuest = 0;
+// }
