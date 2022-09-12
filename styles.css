@@ -75,6 +75,14 @@ body{
     align-items:center;
 }
 
+#home-score{
+    padding: 1em;
+}
+
+#guest-score{
+    padding: 1em;
+}
+
 .buttons{
     display: flex;
     gap: .5rem;
